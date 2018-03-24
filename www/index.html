@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="public/css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+      <header>
+        <ul id="ulMenuPrincipal">
+          <li>
+            Nombre
+          </li><li>
+            Apellidos
+          </li><li>
+            Imagen de perfil
+          </li><li>
+            Que relacion nos une
+          </li>
+        </ul>
+      </header>
+      <section id="sectionCuerpoGeneral">
+          Esta es un texto temporal
+      </section>
+      <input type="button" id="btnLanzarAlerta" value="Lanzar alerta" />
+      <input type="button" id="btnSobreEscribirCuerpo" value="Cambiar texto del cuerpo" />
+      <input type="text" id="txtTexto" />
+      <select id="selectPais">
+        <option value="Peru">Peru</option>
+        <option value="España">España</option>
+        <option value="Ya esta bueno">Ya esta bueno</option>
+      </select>
+      <footer></footer>
+
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="public/js/jquery.mobile-1.4.5.min.js"></script>
+      <script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="public/js/index.js"></script>
+    </body>
+</html>
